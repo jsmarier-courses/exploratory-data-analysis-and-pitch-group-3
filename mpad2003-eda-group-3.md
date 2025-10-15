@@ -73,6 +73,9 @@ Insert text here.
 ![](pivot-table-screen-capture.png)<br>
 *Figure 2: This pivot table shows...*
 
+![](cu-logo-color-right-horizontal.svg)<br>
+*Figure 2: This is the Carleton University logo...*
+
 **This section should also include a screen capture of your exploratory chart, like so:**
 
 ![](chart-screen-capture.png)<br>
