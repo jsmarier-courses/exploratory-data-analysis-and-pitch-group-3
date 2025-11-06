@@ -41,15 +41,16 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 3.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+A VIMO analysis of our dataset reveals the following information: 
+ 
+Valid/Invalid/Missing Values: 
 
-Insert text here.
+Invalid or Missing values within a dataset can be a huge pain to deal with, and not dealing with them causes massive problems. Luckily, we found no Invalid or Missing values within the data. Each entry contained numeric population, certificate values that are realistic within their range, and followed a consistent format. All the data contained in our selected columns were Valid data. 
+ 
 
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
+Outliers: 
 
-**For example:**
-
- (2021) City of Ottawa.
+While there were not many outliers, there are a few wards that specifically had outliers in their percentages of the population who had acquired a post-secondary certificate relative to their population size. The average between the wards stands at about 52%-57. 3 wards stand out as high outliers, those being: Somerset (69.9%), Capital (66.2%), and Kitchisippi (65.7%). These areas are at the heart of Ottawa, containing things like Ottawa University and loads of downtown spots that gives reason to the high percentages of certificate owners. Residents in these areas tend to have higher education level. Comparatively, Gloucester-Southgate sits below the typical range at 46.5%. While this outlier is not particularly large, it is still worth mentioning. 
 
 ### 3.2. Cleaning Data
 
