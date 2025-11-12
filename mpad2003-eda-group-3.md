@@ -1,13 +1,30 @@
-**2025-11-6 **<br>
-**MPAD 2003 Data Storytelling**<br>
-**Tyler Jardine, **<br>
+**Date**<br>
+**Course Code & Course Name**<br>
+**Student's First Name & Last Name**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
 
+Use one hashtag symbol (`#`) to create a level 1 heading like this one.
+
+## Foreword
+
+For this assignment, you must extract data from a dataset provided by the instructor. You must then clean and analyze the data, create exploratory charts/visualizations, and find a potential story idea. Your assignment must clearly detail your process. You are expected to write about 1500-2000 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub Classroom.
+
+I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
+
+**Here are some useful resources for this assignment:**
+
+* [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
+
+Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
+
+And to create an unordered list, we simply put a star (`*`) before each item.
+
 ## 1. Introduction
 
-For our project, we looked at the [City of Ottawa’s 2021 Long Form Census – Ward Data.](https://www.arcgis.com/sharing/rest/content/items/59b3ea74ecea4a8a9d7fb797190bbdb8/data) This dataset was originally collected by Statistics Canada and was published under Ottawa’s open data portal. Our idea was to go in and compare the different education levels between the wards to see if there was anything interesting. We broke down the data into just 3 separate columns: Wards, Population of the Ward, and population of the ward who has acquired any form of post-secondary education, whether that's a certificate or a master's degree. The following sections contain our process: getting the data, cleaning the data by removing unwanted or incorrect info, preforming an explortatory data analysis, preforming a VIMO analysis, and finally picking out a potential story.
+Insert text here.
 
 ## 2. Getting Data
 
@@ -41,16 +58,15 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 3.1. VIMO Analysis
 
-A VIMO analysis of our dataset reveals the following information: 
- 
-Valid/Invalid/Missing Values: 
+Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
-Invalid or Missing values within a dataset can be a huge pain to deal with, and not dealing with them causes massive problems. Luckily, we found no Invalid or Missing values within the data. Each entry contained numeric population, certificate values that are realistic within their range, and followed a consistent format. All the data contained in our selected columns were Valid data. 
- 
+Insert text here.
 
-Outliers: 
+Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
-While there were not many outliers, there are a few wards that specifically had outliers in their percentages of the population who had acquired a post-secondary certificate relative to their population size. The average between the wards stands at about 52%-57. 3 wards stand out as high outliers, those being: Somerset (69.9%), Capital (66.2%), and Kitchisippi (65.7%). These areas are at the heart of Ottawa, containing things like Ottawa University and loads of downtown spots that gives reason to the high percentages of certificate owners. Residents in these areas tend to have higher education level. Comparatively, Gloucester-Southgate sits below the typical range at 46.5%. While this outlier is not particularly large, it is still worth mentioning. 
+**For example:**
+
+ (2021) City of Ottawa.
 
 ### 3.2. Cleaning Data
 
@@ -61,20 +77,42 @@ We deleted a lot of rows that were irrelevant of our findings.  There were 2000 
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-Insert text here.
+I selected Total population and Postsecondary certificate/diploma/degree counts since they respond to two fundamental questions about an educational EDA which are 
+What is the number of individuals with postsecondary education at each ward?
 
-**This section should include a screen capture of your pivot table, like so:**
+What does that compare to the number of percent of the ward population who are credentialed?
 
-![](pivot-table-screen-capture.png)<br>
-*Figure 2: This pivot table shows...*
+Comparing the total counts and percentages enables our group to identify the wards that are large numbers of population with low measure of postsecondary students possible  and wards with small populations with high percentages of postsecondary students.
 
-![](cu-logo-color-right-horizontal.svg)<br>
-*Figure 2: This is the Carleton University logo...*
+City Totals Population = 1,000,940; Postsecondary = 550,005 - Citywide rate 54.95%.
 
-**This section should also include a screen capture of your exploratory chart, like so:**
+Share (percentage) in highest postsecondary:
 
-![](chart-screen-capture.png)<br>
-*Figure 3: This exploratory chart shows...*
+Somerset (Ward 14): 69.92% - most significantly high persentage.
+
+Other wards with high rates: Capital (Ward 17) 66.22%, Kitchissippi (Ward 15) 65.72%.
+
+Lowest postsecondary share:
+
+Gloucester- Southgate (Ward 10): 46.53% - lowest rate in the dataset.
+
+Highest total number of postsecondary 
+College (Ward 8): 28,060, Kanata South (Ward 23): 27,190, Barrhaven East (Ward 24): 26,615, Bay (Ward 7): 26,670 are the wards that have the largest number of credentialed residents which reflects on their larger population.
+
+Biggest ward populations: Barrhaven East and College are of the biggest ones.
+
+
+![Pivot Table Screenshot](Pivot-Table(Antonio).png)
+![Chart Screenshot](Chart-(Antonio).png)
+![Overview of both chart and pivot table](Overview-EDA-chart-and-Pivot-table-(Antonio).png)
+
+This comparison is made on the total population and number of residents with postsecondary certificates, diplomas or degrees of Ottawa 24 wards. The selection of these variables was based on the desire to study the level of educational attainment by the number of people and determine any spatial or demographic trends in the city.
+
+Approximately 54.95% of all residents in the city have postsecondary credentials, although there is a high degree of difference in the rates across wards. Somerset (69.9), Capital (66.2), and Kitchissippi (65.7) have the highest percentage, and the lowest percentage in Gloucester-Southgate (46.5). College, Barrhaven East, and Kanata South have also the highest number of credentialed residents according to population size. Such a difference suggests that city means conceal local differences of significance.
+
+The trend indicates that the inner-city wards are more likely to have high education levels, which may be related to their location near universities, professional job, or social economics, whereas some urban and rural wards have low rates. These data provoke also additional questions concerning the connection between education level and income, occupation, and access to postsecondary institutions.
+
+The next steps to be taken are to analyze the data on age distribution, income, and occupation by ward to get a better idea of social and geographic determinants of education levels in Ottawa.
 
 ## 4. Potential Story
 
