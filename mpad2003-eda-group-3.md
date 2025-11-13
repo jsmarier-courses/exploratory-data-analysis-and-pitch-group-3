@@ -24,7 +24,9 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-Insert text here.
+For our project, we looked at the City of Ottawa’s 2021 Long Form Census – Ward Data. This dataset was originally collected by Statistics Canada and was published under Ottawa’s open data portal. Our idea was to go in and compare the different education levels between the wards to see if there was anything interesting. We broke down the data into just 3 separate columns: Wards, Population of the Ward, and population of the ward who has acquired any form of post-secondary education, whether that's a certificate or a master's degree.
+It collected data from all 24 wards in Ottawa about numerous different topics, including population, income, post-secondary education, among others. The data was then organized by ward to compare the differences between them.
+https://www.arcgis.com/sharing/rest/content/items/59b3ea74ecea4a8a9d7fb797190bbdb8/data
 
 ## 2. Getting Data
 
@@ -58,9 +60,14 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 3.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+A VIMO analysis of our dataset reveals the following information:
 
-Insert text here.
+Valid/Invalid/Missing Values:
+Invalid or Missing values within a dataset can be a huge pain to deal with, and not dealing with them causes massive problems. Luckily, we found no Invalid or Missing values within the data. Each entry contained numeric population, certificate values that are realistic within their range, and followed a consistent format. All the data contained in our selected columns were Valid data.
+
+Outliers:
+While there were not many outliers, there are a few wards that specifically had outliers in their percentages of the population who had acquired a post-secondary certificate relative to their population size. The average between the wards stands at about 52%-57. 3 wards stand out as high outliers, those being: Somerset (69.9%), Capital (66.2%), and Kitchisippi (65.7%). These areas are at the heart of Ottawa, containing things like Ottawa University and loads of downtown spots that gives reason to the high percentages of certificate owners. Residents in these areas tend to have higher education level. Comparatively, Gloucester-Southgate sits below the typical range at 46.5%. While this outlier is not particularly large, it is still worth mentioning.
+
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
